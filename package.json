@@ -1,0 +1,26 @@
+{
+    "name": "webassembly",
+    "displayName": "WebAssembly",
+    "description": "Syntax highlight for WebAssembly textual representation",
+    "version": "0.0.1",
+    "publisher": "3e6ndygxscqt3n3xo23aiimx2oyvr6xz5gzpzbdkshncypiys5qa",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "wasm",
+            "aliases": ["WebAssembly", "Web Assembly", "wasm", "wast"],
+            "extensions": [".wast", ".wat"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "wasm",
+            "scopeName": "source.wasm",
+            "path": "./syntaxes/wasm.tmLanguage.json"
+        }]
+    }
+}
