@@ -7,6 +7,9 @@
     "engines": {
         "vscode": "^1.12.0"
     },
+    "repository": {
+        "url": "https://github.com/AlanCezarAraujo/vscode-webassembly-syntax-highlight"
+    },
     "categories": [
         "Languages"
     ],
